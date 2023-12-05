@@ -1,0 +1,14 @@
+
+    .heart {
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .heart-empty::before {
+        content: '\2661'; 
+    }
+
+    .heart-filled::before {
+        content: '\2764'; 
+        color: red; 
+    }
